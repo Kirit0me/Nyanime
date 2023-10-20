@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-->
+
+### NyanAnime Website
+Cat theme'd anime website
+
+## Goals
+Cat theme'd website-nyan
+To view different types of anime-nyan
+To put up my favourite animes-nyan
+
+## Does what
+Jikan-API requests-nyan
+
+## Extra Goals
+Mangas, Novels and Music also get shown, and spreads culture
