@@ -24,10 +24,6 @@ function AnimeMain() {
         Top Anime
       </h1>
       <Card anilist={topAnime} />
-      <h1>
-        Seasonal Anime
-      </h1>
-      <Card anilist={seasonal} />
     </div>
   );
 }
