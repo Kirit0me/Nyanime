@@ -20,8 +20,8 @@ function AnimeMain() {
 
   return (
     <div class="text-xl bg-slate-800">
-      <h1>
-        Top Anime
+      <h1 class="text-3xl p-6 bg-clip-text text-transparent bg-gradient-to-l from-fuchsia-300 to-pink-400">
+        The<b>Top</b>Anime
       </h1>
       <Card anilist={topAnime} />
     </div>
