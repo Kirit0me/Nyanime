@@ -1,7 +1,7 @@
 function Card({anilist}) {
     const animes = anilist.map(ani=>
         <a href={ani?.url}>
-            <div class="snap-center snap-always relative mx-auto hover:opacity-80 hover:scale-105 scroll-ml-6 flex-none rounded-3xl w-48 h-72 mb-8 mr-8">
+            <div class="relative mx-auto hover:opacity-80 hover:scale-105 scroll-ml-6 flex-none rounded-3xl w-48 h-72 mb-8 mr-8">
                 <img 
                     src={ani?.images.jpg.large_image_url}
                     alt={ani?.title}
@@ -13,8 +13,8 @@ function Card({anilist}) {
         </a>
     )
     return(
-        <div class="overflow-x-scroll">
-        <div class=" bg-slate-800 p-6 relative hover:absolute snap-x snap-mandatory mx-auto flex flex-row pt-4 pb-4">{animes}</div>
+        <div class="overflow-y-hidden overflow-x-scroll max-w-full">
+            <div class="max-w-full bg-slate-800 p-6 relative snap-x flex flex-row pt-4 pb-4">{animes}</div>
         </div>
     ) 
 }
