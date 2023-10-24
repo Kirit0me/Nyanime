@@ -71,15 +71,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 -->
 
 # NyanAnime Website
-Cat theme'd anime website
+Cat theme'd anime website.
 
 ## Goals
-Cat theme'd website-nyan
-To view different types of anime-nyan
-To put up my favourite animes-nyan
+Cat theme.
+My favourite things should be contained.
 
 ## Does what
-Jikan-API requests-nyan
+Jikan-API requests-nyan.
+Spotify Embeds.
 
 ## Extra Goals
-Mangas, Novels and Music also get shown, and spreads culture
+Mangas, Novels and Music also get shown, and spreads culture.
+Using backend.
