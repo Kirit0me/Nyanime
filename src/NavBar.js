@@ -2,7 +2,7 @@ import paw from './images/catpaw.png'
 
 function NavBar(){
     return(
-        <div class="flex justify-evenly h-14">
+        <div class="flex justify-evenly bg-slate-900 h-14">
             <img
                 src={paw}
                 alt="cat paw"
