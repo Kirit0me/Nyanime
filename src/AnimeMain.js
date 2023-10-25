@@ -25,7 +25,7 @@ function AnimeMain() {
   return (
     <>
     <div class="p-6"></div>
-    <div class="text-xl max-w-screen bg-slate-800">
+    <div class="text-xl max-w-screen bg-slate-800 rounded-3xl">
       <div class="flex flex-row-reverse flex-nowrap">
         <div class="w-1/3 flex-none bg-grey-800 p-12 rounded-3xl hover:bg-slate-700 transition-colors ease-in-out">
           <img
@@ -47,6 +47,7 @@ function AnimeMain() {
           </div>
         </div>
       </div>
+      <div class="bg-black h-8"></div>
       <h1 class="text-3xl p-6 bg-clip-text text-transparent bg-gradient-to-l from-fuchsia-300 to-pink-400">
         The<b>Top</b>Anime
       </h1>
@@ -54,7 +55,7 @@ function AnimeMain() {
       <h1 class="text-3xl p-6 bg-clip-text text-transparent bg-gradient-to-l from-fuchsia-300 to-pink-400">
         The<b>Seasonal</b>Anime
       </h1>
-      <Card anilist={seasonal} />
+
     </div>
     </>
   );

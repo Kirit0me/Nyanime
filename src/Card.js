@@ -1,7 +1,7 @@
 function Card({anilist}) {
     const animes = anilist.map(ani=>
         <a href={ani?.url}>
-            <div class="relative mx-auto hover:opacity-80 hover:scale-105 scroll-ml-6 flex-none rounded-3xl w-48 h-72 mb-8 mr-8">
+            <div class="border-4 border-fuchsia-600 relative mx-auto hover:opacity-80 hover:scale-105 scroll-ml-6 flex-none rounded-3xl w-48 h-72 mb-8 mr-8">
                 <img 
                     src={ani?.images.jpg.large_image_url}
                     alt={ani?.title}
